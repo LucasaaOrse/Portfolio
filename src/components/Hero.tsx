@@ -38,7 +38,7 @@ export default function Hero() {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="mt-6 text-lg text-[#A1A1AA] max-w-xl leading-relaxed"
       >
-        Especialista em Automações, APIs e Sistemas Web. Ajudo empresas a economizar tempo e reduzir tarefas manuais através de engenharia de software sob medida.
+        Desenvolvo automações, APIs e sistemas web para empresas que querem reduzir tarefas manuais, centralizar processos e ganhar produtividade com software sob medida.
       </motion.p>
 
       {/* Call to Actions (Botões) */}
@@ -52,7 +52,7 @@ export default function Hero() {
           href="#projects" 
           className="flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3 rounded-lg bg-[#FAFAFA] text-[#09090B] font-medium transition-transform hover:scale-[1.02] active:scale-[0.98]"
         >
-          Ver Projetos
+          Ver projetos
         </a>
         <a 
           href="#contact" 

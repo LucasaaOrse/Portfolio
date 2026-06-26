@@ -5,29 +5,30 @@ import { motion } from "framer-motion";
 const services = [
   {
     title: "Automações",
-    desc: "Robôs e scripts que eliminam tarefas manuais e repetitivas.",
+    desc: "Robôs, integrações e rotinas agendadas para eliminar processos repetitivos.",
   },
   {
     title: "Sistemas Web",
-    desc: "Plataformas completas com dashboards e área administrativa.",
+    desc: "Aplicações responsivas com login, área administrativa e fluxos sob medida.",
   },
   {
     title: "APIs",
-    desc: "Integração entre sistemas e serviços externos.",
+    desc: "APIs REST com autenticação, banco de dados, documentação e integrações externas.",
   },
   {
     title: "Dashboards",
-    desc: "Painéis em tempo real para tomada de decisão.",
+    desc: "Painéis administrativos para acompanhar indicadores, operações e registros em tempo real.",
   },
   {
     title: "Micro SaaS",
-    desc: "Soluções sob medida para problemas específicos.",
+    desc: "Produtos enxutos para validar ideias, automatizar nichos e gerar receita recorrente.",
   },
   {
     title: "Bots",
-    desc: "Automação de processos em sistemas internos ou externos.",
+    desc: "Bots para atendimento, notificações, coleta de dados e fluxos operacionais.",
   },
 ];
+
 
 export default function Services() {
   return (

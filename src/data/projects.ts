@@ -9,6 +9,7 @@ export interface Project {
   image: string;
   githubUrl?: string;
   demoUrl?: string;
+  linkLabel?: string;
 }
 
 export const projects: Project[] = [
@@ -23,10 +24,11 @@ export const projects: Project[] = [
       "Processos internos fragmentados, dependentes de execução manual e sem visibilidade centralizada.",
     solution:
       "Criação de um sistema modular com painéis administrativos, automações assíncronas e integração entre diferentes fluxos de trabalho.",
-    tags: ["Next.js", "Node.js", "Automation", "PostgreSQL"],
+    tags: ["Next.js", "Node.js", "Automação", "PostgreSQL"],
     image: "/images/nova-operations.png",
     githubUrl: "https://github.com/LucasaaOrse/nova-operations", // Adicionado para manter o padrão
     demoUrl: "https://nova-operations.vercel.app",
+    linkLabel: "Ver online",
   },
 
   {
@@ -53,7 +55,7 @@ export const projects: Project[] = [
     description:
       "API backend para controle de tarefas com autenticação e estrutura escalável.",
     longDescription:
-      "API REST estruturada para gerenciamento de tarefas and workflows, com foco em escalabilidade e organização de processos.",
+      "API REST estruturada para gerenciamento de tarefas e fluxos de trabalho, com foco em escalabilidade e organização de processos.",
     problem:
       "Dificuldade em organizar tarefas e fluxos de trabalho de forma estruturada em pequenos sistemas.",
     solution:
@@ -78,6 +80,7 @@ export const projects: Project[] = [
     image: "/images/vivabem.png",
     githubUrl: "https://github.com/LucasaaOrse/VivaBem-Saas",
     demoUrl: "https://viva-bem-saas.vercel.app",
+    linkLabel: "Ver online",
   },
 
   {
@@ -95,6 +98,7 @@ export const projects: Project[] = [
     image: "/images/davila.png",
     githubUrl: "https://github.com/LucasaaOrse/D-Avila-Associados",
     demoUrl: "https://d-avila-associados.vercel.app",
+    linkLabel: "Ver online",
   },
 
   {
@@ -112,6 +116,7 @@ export const projects: Project[] = [
     image: "/images/brind10.png",
     githubUrl: "https://github.com/LucasaaOrse/brind10premium",
     demoUrl: "https://brind10premium.vercel.app",
+    linkLabel: "Ver online",
   },
 
   {
@@ -129,5 +134,6 @@ export const projects: Project[] = [
     image: "/images/fonoaudiologia.png",
     githubUrl: "https://github.com/LucasaaOrse/conectafonoaudiologia",
     demoUrl: "https://conectafonoaudiologia.vercel.app",
+    linkLabel: "Ver online",
   },
 ];
